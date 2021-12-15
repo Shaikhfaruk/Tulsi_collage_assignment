@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main()
+int main()
 {
     int a;
     // clrscr();
@@ -20,5 +20,6 @@ void main()
         printf("\n a is less then 50");
     }
     printf("\n Your age is:%d", a);
-    getch();
+    // getch();
+    return 0;
 }
