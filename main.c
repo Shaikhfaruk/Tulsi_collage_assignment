@@ -6,7 +6,7 @@ int main()
     int a, b, c;
     printf("Enter a number");
     scanf("%d %d %d", &a, &b, &c);
-    
+
     if (a > b && b > c)
     {
         printf("\n a is grater then others");
@@ -20,5 +20,5 @@ int main()
         printf("\n c is grater then others");
     }
     return 0;
-    getch();
+    // getch();
 }
