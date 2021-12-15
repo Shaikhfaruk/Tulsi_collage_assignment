@@ -9,7 +9,6 @@ int main()
 
     if (a > b && b > c)
     {
-
         printf("\n a is grater then others");
     }
     else if (b > a && b > c)
