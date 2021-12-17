@@ -3,7 +3,6 @@
 int main()
 {
     int a;
-
     printf("\n Enter between 0 to 6 number");
     scanf("%d", &a);
     switch (a)
