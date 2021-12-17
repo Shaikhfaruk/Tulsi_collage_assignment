@@ -21,7 +21,7 @@ int main()
         break;
 
     default:
-        printf("\n This is constant   ");
+        printf("\n This is consonant   ");
         break;
     }
     return 0;
