@@ -6,7 +6,7 @@ int main()
     scanf("%d", &b);
     for (a = 1; a <= b; a++)
     {
-        printf("Number is : %d and cube of the %d is :%d \n", a, a, (a * a * a));
+        printf("Number is : %d and cube of the %d is :\t %d \n", a, a, (a * a), (a * a * a));
     }
     return 0;
 }
