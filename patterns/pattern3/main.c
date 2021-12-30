@@ -6,14 +6,23 @@ int main()
 
     while (a <= 5)
     {
-        b = 1;
-        while (b <= a)
+        b = 5;
+        while (b >= a)
         {
-            printf("%d", b);
-            b++;
+            printf("%d ", b);
+            b--;
         }
         printf("\n");
         a++;
     }
+
     return 0;
 }
+
+// output
+
+// 5 4 3 2 1
+// 5 4 3 2
+// 5 4 3
+// 5 4
+// 5
