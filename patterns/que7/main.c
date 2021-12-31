@@ -3,12 +3,13 @@
 int main()
 {
     int a = 1, b;
+
     while (a <= 5)
     {
         b = 1;
-        while (b >= a)
+        while (a >= b)
         {
-            printf("%d", b);
+            printf("%d ", b * b);
             b++;
         }
         printf("\n");
@@ -17,3 +18,5 @@ int main()
 
     return 0;
 }
+
+// Que 10
