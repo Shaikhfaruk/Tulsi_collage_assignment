@@ -2,23 +2,25 @@
 
 int main()
 {
-    int a = 1, b;
-    while (a <= 5)
-    {
-        b = 5;
-        while (a >= b)
-        {
-            printf("%c", (char)(b + 5));
-            b--;
-        }
+    int a = 5, b;
 
-        a++;
+    while (a >= 1)
+    {
+        b = 1;
+
+        while (b <= a)
+        {
+            printf("%c ", b + 64);
+            b++;
+        }
+        printf("\n");
+        a--;
     }
 
     return 0;
 }
 
-// output
+// Q.9  output 🌶
 
 // A B C D E
 // A B C D
