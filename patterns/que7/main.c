@@ -19,4 +19,4 @@ int main()
     return 0;
 }
 
-// Que 10
+// Que 7

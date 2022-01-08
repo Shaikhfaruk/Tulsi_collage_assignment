@@ -1,7 +1,9 @@
 #include <stdio.h>
+
 int main()
 {
     int i, space, rows, k = 0;
+
     printf("\n Enter the number of rows: \n");
     printf("\n");
 
